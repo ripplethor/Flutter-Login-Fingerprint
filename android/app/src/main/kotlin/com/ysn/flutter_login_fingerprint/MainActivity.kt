@@ -1,13 +1,6 @@
-package com.ysn.flutter_login_fingerprint
+package com.ysn.Flutter_Login_Fingerprint
 
-import android.os.Bundle
+import io.flutter.embedding.android.FlutterActivity
 
-import io.flutter.app.FlutterFragmentActivity
-import io.flutter.plugins.GeneratedPluginRegistrant
-
-class MainActivity: FlutterFragmentActivity() {
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    GeneratedPluginRegistrant.registerWith(this)
-  }
+class MainActivity: FlutterActivity() {
 }
